@@ -1,0 +1,7 @@
+{
+  "/quiz/spending/page": "app/quiz/spending/page.js",
+  "/quiz/spending/[id]/page": "app/quiz/spending/[id]/page.js",
+  "/quiz/spending/education/page": "app/quiz/spending/education/page.js",
+  "/quiz/spending/results/page": "app/quiz/spending/results/page.js",
+  "/quiz/spending/solution/page": "app/quiz/spending/solution/page.js"
+}
