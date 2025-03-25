@@ -133,6 +133,15 @@ export default function SolutionPage() {
           </div>
         </div>
 
+        <div className="guarantee-section">
+          <div className="guarantee-icon">🛡️</div>
+          <h3 className="guarantee-title">90-Day Money-Back Guarantee</h3>
+          <p className="guarantee-text">
+            If you're not completely satisfied with your results within 90 days, 
+            we'll give you a full refund. No questions asked.
+          </p>
+        </div>
+
         <div className="button-container">
           <Link href="/quiz/spending/checkout" className="button">
             Start Your Debt-Free Journey
@@ -278,6 +287,34 @@ export default function SolutionPage() {
           font-size: 1.1rem;
           line-height: 1.6;
           color: #444;
+        }
+
+        .guarantee-section {
+          background: #f8f9fa;
+          border-radius: 12px;
+          padding: 2rem;
+          margin: 2rem 0;
+          text-align: center;
+        }
+
+        .guarantee-icon {
+          font-size: 2.5rem;
+          margin-bottom: 1rem;
+        }
+
+        .guarantee-title {
+          font-size: 1.5rem;
+          font-weight: bold;
+          margin-bottom: 1rem;
+          color: #28a745;
+        }
+
+        .guarantee-text {
+          font-size: 1.1rem;
+          line-height: 1.6;
+          color: #444;
+          max-width: 600px;
+          margin: 0 auto;
         }
 
         .button {

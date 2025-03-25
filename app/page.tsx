@@ -13,7 +13,7 @@ export default function Home() {
         className="logo"
       />
       
-      <h1>Tired of Restless Nights?</h1>
+      <h1>Want to Have Your Best Night&apos;s Sleep, EVERY Night?</h1>
       
       <h2>Find Your Perfect Sleep Solution</h2>
       

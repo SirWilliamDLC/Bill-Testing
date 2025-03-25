@@ -66,6 +66,11 @@ export default function ResultsPage() {
           </div>
         </div>
         
+        <div className="pricing-module">
+          <h3>Special Offer</h3>
+          <p>Would you pay $29 to get your best night&apos;s sleep, EVERY night? Based on your answers, this is the perfect product I would recommend to solve all of your sleep issues</p>
+        </div>
+        
         <div className="comparison-link-container text-center my-6">
           <p className="mb-3">Want to compare options?</p>
           <Link href="/quiz/comparison" className="text-blue-600 hover:text-blue-800 underline">
@@ -81,4 +86,37 @@ export default function ResultsPage() {
       </div>
     </>
   )
+} 
+
+.testimonial-author {
+  font-weight: bold;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+.pricing-module {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.pricing-module h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #28a745;
+}
+
+.pricing-module p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #444;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.comparison-link-container {
+  // ... existing code ...
 } 
